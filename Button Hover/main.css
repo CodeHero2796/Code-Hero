@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(0, 56, 0);
+}
+h1
+{
+    text-align: center;
+}
+button
+{
+    padding: 20px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    margin-left: 220px;
+}
+button:hover
+{
+    scale: 1.05;
+    background-color: green;
+    box-shadow: 0 0 15px green;
+    color: white;
+    transition-duration: .4s;
+    cursor: pointer;
+}
